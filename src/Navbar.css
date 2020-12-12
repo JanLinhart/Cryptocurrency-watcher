@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight:bold;
+}
+
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    background-color:rgb(70, 69, 73);
+    height:70px;
+    width:100%;
+    align-items: center;
+    position:fixed;
+    position:relative;
+    top:0;
+    z-index:10;
+    
+    
+}
+.logo{
+    display:flex;
+    background-color:rgb(70, 69, 73);
+    align-items: center;
+    margin-left: 20px;
+    
+}
+.logo h2{
+    background-color:rgb(70, 69, 73);
+    color:white;
+}
+.logo span{
+    background-color:rgb(70, 69, 73);  
+    color:#F7931A;
+    
+}
+nav i{
+    
+    font-size:3rem;
+    background-color:rgb(73, 69, 73);
+    margin:10px;
+    background: -webkit-linear-gradient(#eee, #F7931A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+ul{
+    display:flex;
+    list-style:none;
+    background-color:rgb(73, 69, 73);
+    position:absolute;
+    left:30%;
+    
+    
+    
+    
+}
+ul li{
+    margin-right: 40px;
+    background-color:rgb(73, 69, 73);
+    
+}
+ul li a:hover{
+    color:#F7931A;
+}
+ul li a{
+    background-color:rgb(73, 69, 73);
+    text-decoration:none;
+    color:white;
+}
+nav .menu{
+    display: none;
+}
+
+@media(max-width:767px){
+    nav ul{
+        position:absolute;
+        display:flex;
+        flex-direction:column;
+        height:100vh;
+        background-color:#F7931A;
+        justify-content:space-around;
+        align-items: center;
+        right:0;
+        top:0vh;
+        z-index: 10;
+        width:100%;
+        
+        position: fixed;
+        transition: transform 0.5s ease-in;
+    }
+    ul li a {
+        background-color:#F7931A;  
+    }
+    ul li{
+        background-color:#F7931A;
+    }
+
+    nav .menu{
+        display:block;
+        margin-right: 10px;
+        z-index: 10;
+        
+    }
+    
+}

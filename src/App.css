@@ -1,0 +1,58 @@
+.coin-app{
+    font-family: 'Ubuntu', sans-serif;
+    background-color:rgb(57, 57, 66);
+    font-weight:bold;
+    color:white;
+    max-width:100%;
+    
+    
+    
+}
+
+.coin-search{
+    
+    margin-top: 70px;
+    margin-bottom: 50px;
+    text-align: center;
+    
+    
+}
+.coin-search input{
+    width:20rem;
+    height:3rem;
+    border-radius:1rem;
+    background-color: white;
+    border:2px solid #F7931A;
+    font-size: 1.5em;
+    color:#F7931A;
+}
+input[type="text"], input[type="password"], textarea, select { 
+    outline: none;
+}
+.coin-search .coin-text{
+    margin-bottom: 50px;
+    background: -webkit-linear-gradient(#eee, #F7931A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.labels{
+    display:flex;
+    justify-content:space-evenly;
+    border-bottom:1px black solid;
+    
+    
+}
+.labels h2{
+    margin-right: 0px;
+}
+
+@media(max-width:767px){
+    .coin-search input{
+        width:100%;
+        
+    }
+    .labels h2{
+        display:none;
+    }
+
+}

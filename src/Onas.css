@@ -1,0 +1,12 @@
+.strana__onas{
+    height:120vh;
+    width:100%;
+    background-color:rgb(57, 57, 66);
+    position:relative;
+}
+.strana__onas p{
+    position:absolute;
+    color:white;
+    margin:20px;
+    text-align:center;
+}
