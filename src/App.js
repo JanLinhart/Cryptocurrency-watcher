@@ -47,15 +47,7 @@ console.log(res.data)
 
     </div>
 
-    <div className="labels">
-      <h2 className="margin">Měna</h2>
-      <h2 className="margin">Značka</h2>
-      <h2>Cena za kus</h2>
-      <h2>Objem</h2>
-      <h2>Změna</h2>
-      <h2>Tržní<br/> kapitalizace</h2>
-
-    </div>
+  
 {filteredCoins.map(coin=>{
   return(
     <Coin key={coin.id} name={coin.name} image={coin.image} 
