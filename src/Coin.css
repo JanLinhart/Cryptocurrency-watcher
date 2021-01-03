@@ -1,7 +1,7 @@
 .coin-container{
     display:flex;
     justify-content: center;
-    max-width: 100%;
+    width: 100%;
 }
 .coin-row{
     display:flex;
@@ -10,9 +10,8 @@
     align-items: center;
     height: 80px;
     border-bottom: 1px solid gray;
-    width:100%;
-    margin-left:5%;
-    margin-right:5%;
+    max-width:80%;
+   
 }
 .coin{
     display:flex;
@@ -37,7 +36,7 @@
     display:flex;
     text-align: right;
     justify-content: space-between;
-    width:100%;
+    max-width:100%;
 
 }
 
